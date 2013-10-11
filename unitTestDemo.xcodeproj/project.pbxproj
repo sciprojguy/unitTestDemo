@@ -23,6 +23,13 @@
 		9A6710D11807346C00CEFD48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6710AC1807346B00CEFD48 /* Foundation.framework */; };
 		9A6710D91807346C00CEFD48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A6710D71807346C00CEFD48 /* InfoPlist.strings */; };
 		9A6710DC1807346C00CEFD48 /* unitTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6710DB1807346C00CEFD48 /* unitTestDemoTests.m */; };
+		9A6710E7180734F000CEFD48 /* FormatsAndConversions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6710E6180734F000CEFD48 /* FormatsAndConversions.m */; };
+		9A6710E8180734F000CEFD48 /* FormatsAndConversions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6710E6180734F000CEFD48 /* FormatsAndConversions.m */; };
+		9A6710EB18073F3200CEFD48 /* moreEfficientUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6710EA18073F3200CEFD48 /* moreEfficientUnitTests.m */; };
+		9A7673ED18074B4800D9ED17 /* IntegrationTestDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7673EC18074B4800D9ED17 /* IntegrationTestDemo.m */; };
+		9A7673F018074C1F00D9ED17 /* CalculationsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7673EF18074C1F00D9ED17 /* CalculationsModel.m */; };
+		9A7673F118074C1F00D9ED17 /* CalculationsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7673EF18074C1F00D9ED17 /* CalculationsModel.m */; };
+		9A7673F4180750B700D9ED17 /* CalculationUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7673F3180750B700D9ED17 /* CalculationUnitTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +65,16 @@
 		9A6710D81807346C00CEFD48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9A6710DA1807346C00CEFD48 /* unitTestDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unitTestDemoTests.h; sourceTree = "<group>"; };
 		9A6710DB1807346C00CEFD48 /* unitTestDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = unitTestDemoTests.m; sourceTree = "<group>"; };
+		9A6710E5180734F000CEFD48 /* FormatsAndConversions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormatsAndConversions.h; sourceTree = "<group>"; };
+		9A6710E6180734F000CEFD48 /* FormatsAndConversions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormatsAndConversions.m; sourceTree = "<group>"; };
+		9A6710E918073F3200CEFD48 /* moreEfficientUnitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moreEfficientUnitTests.h; sourceTree = "<group>"; };
+		9A6710EA18073F3200CEFD48 /* moreEfficientUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = moreEfficientUnitTests.m; sourceTree = "<group>"; };
+		9A7673EB18074B4800D9ED17 /* IntegrationTestDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegrationTestDemo.h; sourceTree = "<group>"; };
+		9A7673EC18074B4800D9ED17 /* IntegrationTestDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntegrationTestDemo.m; sourceTree = "<group>"; };
+		9A7673EE18074C1F00D9ED17 /* CalculationsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationsModel.h; sourceTree = "<group>"; };
+		9A7673EF18074C1F00D9ED17 /* CalculationsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationsModel.m; sourceTree = "<group>"; };
+		9A7673F2180750B700D9ED17 /* CalculationUnitTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculationUnitTests.h; sourceTree = "<group>"; };
+		9A7673F3180750B700D9ED17 /* CalculationUnitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculationUnitTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +139,10 @@
 				9A6710C21807346C00CEFD48 /* ViewController.h */,
 				9A6710C31807346C00CEFD48 /* ViewController.m */,
 				9A6710C51807346C00CEFD48 /* ViewController.xib */,
+				9A6710E5180734F000CEFD48 /* FormatsAndConversions.h */,
+				9A6710E6180734F000CEFD48 /* FormatsAndConversions.m */,
+				9A7673EE18074C1F00D9ED17 /* CalculationsModel.h */,
+				9A7673EF18074C1F00D9ED17 /* CalculationsModel.m */,
 				9A6710B11807346B00CEFD48 /* Supporting Files */,
 			);
 			path = unitTestDemo;
@@ -144,9 +165,15 @@
 		9A6710D41807346C00CEFD48 /* unitTestDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				9A6710D51807346C00CEFD48 /* Supporting Files */,
 				9A6710DA1807346C00CEFD48 /* unitTestDemoTests.h */,
 				9A6710DB1807346C00CEFD48 /* unitTestDemoTests.m */,
-				9A6710D51807346C00CEFD48 /* Supporting Files */,
+				9A6710E918073F3200CEFD48 /* moreEfficientUnitTests.h */,
+				9A6710EA18073F3200CEFD48 /* moreEfficientUnitTests.m */,
+				9A7673F2180750B700D9ED17 /* CalculationUnitTests.h */,
+				9A7673F3180750B700D9ED17 /* CalculationUnitTests.m */,
+				9A7673EB18074B4800D9ED17 /* IntegrationTestDemo.h */,
+				9A7673EC18074B4800D9ED17 /* IntegrationTestDemo.m */,
 			);
 			path = unitTestDemoTests;
 			sourceTree = "<group>";
@@ -273,6 +300,8 @@
 				9A6710B71807346B00CEFD48 /* main.m in Sources */,
 				9A6710BB1807346C00CEFD48 /* AppDelegate.m in Sources */,
 				9A6710C41807346C00CEFD48 /* ViewController.m in Sources */,
+				9A6710E7180734F000CEFD48 /* FormatsAndConversions.m in Sources */,
+				9A7673F018074C1F00D9ED17 /* CalculationsModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +310,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A6710DC1807346C00CEFD48 /* unitTestDemoTests.m in Sources */,
+				9A6710E8180734F000CEFD48 /* FormatsAndConversions.m in Sources */,
+				9A6710EB18073F3200CEFD48 /* moreEfficientUnitTests.m in Sources */,
+				9A7673ED18074B4800D9ED17 /* IntegrationTestDemo.m in Sources */,
+				9A7673F118074C1F00D9ED17 /* CalculationsModel.m in Sources */,
+				9A7673F4180750B700D9ED17 /* CalculationUnitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +487,7 @@
 				9A6710E11807346C00CEFD48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A6710E21807346C00CEFD48 /* Build configuration list for PBXNativeTarget "unitTestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +496,7 @@
 				9A6710E41807346C00CEFD48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
